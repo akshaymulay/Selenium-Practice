@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-29T16:30:31 IST" name="Default suite" finished-at="2022-09-29T16:30:56 IST" duration-ms="24977">
+    <groups>
+      <group name="login">
+        <method signature="LoginSuit.Tc_0001()[pri:1, instance:loginTestSuit.LoginSuit@41fbdac4]" name="Tc_0001" class="loginTestSuit.LoginSuit"/>
+        <method signature="LoginSuit.Tc_0002()[pri:2, instance:loginTestSuit.LoginSuit@41fbdac4]" name="Tc_0002" class="loginTestSuit.LoginSuit"/>
+      </group> <!-- login -->
+    </groups>
+    <test started-at="2022-09-29T16:30:31 IST" name="Default test" finished-at="2022-09-29T16:30:56 IST" duration-ms="24977">
+      <class name="loginTestSuit.LoginSuit">
+        <test-method is-config="true" signature="BuildExecution()[pri:0, instance:loginTestSuit.LoginSuit@41fbdac4]" started-at="2022-09-29T16:30:31 IST" name="BuildExecution" finished-at="2022-09-29T16:30:39 IST" duration-ms="7340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildExecution -->
+        <test-method signature="Tc_0001()[pri:1, instance:loginTestSuit.LoginSuit@41fbdac4]" started-at="2022-09-29T16:30:39 IST" name="Tc_0001" finished-at="2022-09-29T16:30:43 IST" duration-ms="4190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_0001 -->
+        <test-method is-config="true" signature="BuildClose()[pri:0, instance:loginTestSuit.LoginSuit@41fbdac4]" started-at="2022-09-29T16:30:43 IST" name="BuildClose" finished-at="2022-09-29T16:30:45 IST" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildClose -->
+        <test-method is-config="true" signature="BuildExecution()[pri:0, instance:loginTestSuit.LoginSuit@41fbdac4]" started-at="2022-09-29T16:30:45 IST" name="BuildExecution" finished-at="2022-09-29T16:30:50 IST" duration-ms="5683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildExecution -->
+        <test-method signature="Tc_0002()[pri:2, instance:loginTestSuit.LoginSuit@41fbdac4]" started-at="2022-09-29T16:30:50 IST" name="Tc_0002" finished-at="2022-09-29T16:30:54 IST" duration-ms="3476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc_0002 -->
+        <test-method is-config="true" signature="BuildClose()[pri:0, instance:loginTestSuit.LoginSuit@41fbdac4]" started-at="2022-09-29T16:30:54 IST" name="BuildClose" finished-at="2022-09-29T16:30:56 IST" duration-ms="2362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BuildClose -->
+      </class> <!-- loginTestSuit.LoginSuit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
